@@ -1,0 +1,16 @@
+{
+  "name": "nuha-portfolio-main",
+  "version": "1.0.0",
+  "description": "Nuha's personal portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sass --watch scss:styles"
+  },
+  "keywords": [],
+  "author": "Nuha",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.86.3"
+  }
+}
