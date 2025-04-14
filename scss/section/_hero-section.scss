@@ -1,9 +1,8 @@
 .hero-wrapper {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  padding: 4rem;
+  padding: 4rem 2rem;
   position: relative;
   height: 60vh;
 
@@ -21,12 +20,13 @@
   }
   .btn-group {
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     margin-top: 2rem;
     .btn {
-      padding: 1rem;
-      border-radius: 1rem;
-
+      padding: 1rem 1.2rem;
+      border-radius: 2rem;
+      border: none;
+      outline: none;
       a {
         color: #fff;
         font-family: "Manrope", sans-serif;
@@ -46,5 +46,23 @@
         color: var(--olive-800);
       }
     }
+  }
+}
+
+// hero shapes posioning
+#hero > .container {
+  position: relative;
+  overflow: hidden;
+  .hero-left-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .hero-bottom-shape {
+    position: absolute;
+    bottom: -3rem;
+    left: 35%;
+    z-index: -1;
   }
 }
