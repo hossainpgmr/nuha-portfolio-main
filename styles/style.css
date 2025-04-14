@@ -1,4 +1,51 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem;
+  position: relative;
+  height: 60vh;
+}
+.hero-wrapper #hero-img {
+  width: 60%;
+  position: absolute;
+  top: 0;
+  left: 40%;
+  z-index: -1;
+}
+.hero-wrapper #hero-img img {
+  width: 100%;
+  height: 100%;
+}
+.hero-wrapper .btn-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.hero-wrapper .btn-group .btn {
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.hero-wrapper .btn-group .btn a {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.hero-wrapper .btn-group .portfolios-btn {
+  background-color: var(--olive-800);
+}
+.hero-wrapper .btn-group .cta-btn {
+  border: var(--olive-800) 1px solid;
+}
+.hero-wrapper .btn-group .cta-btn a {
+  color: var(--olive-800);
+}
+
 @font-face {
   font-family: "Magilio";
   src: url("../assets/fonts/magilio.ttf") format("truetype");
@@ -63,6 +110,16 @@ a {
   text-align: left;
 }
 
+.heading {
+  color: var(--olive-800);
+  font-family: "Magilio", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 3.8rem;
+  text-transform: uppercase;
+  max-width: 580px;
+}
+
 header {
   padding: 0.782rem 0;
   background-color: var(--cream-100);
@@ -93,6 +150,10 @@ header nav ul li a {
   background-color: transparent;
   color: var(--olive-800);
   font-size: 1.5rem;
+}
+
+nav > .nav_item {
+  font-family: "Magileo", sans-serif;
 }
 
 /* responsive from under 1024px */
