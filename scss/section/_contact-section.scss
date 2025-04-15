@@ -11,6 +11,7 @@
     text-transform: capitalize;
   }
   .contact-form {
+    z-index: 10;
     width: 60%;
     .input-group {
       width: 100%;
@@ -20,11 +21,12 @@
       margin-bottom: 1rem;
       .input-item {
         width: 100%;
+        background-color: var(--secondary);
         fieldset {
           border: var(--cream-100) 1px solid;
           border-radius: 1rem;
           outline: none;
-          padding: 0.5rem 1rem;
+          padding: 0rem 1rem;
           overflow: hidden;
           z-index: 1;
           legend {
@@ -42,6 +44,7 @@
             border: none;
             outline: none;
             resize: none;
+            padding: 0.5rem;
           }
         }
       }
