@@ -69,8 +69,7 @@
   background-color: var(--olive-800);
   display: flex;
   gap: 2rem;
-  align-items: center;
-  padding: 5rem;
+  padding: 8rem;
   padding-bottom: 0;
 }
 .about-wrapper .about-img {
@@ -102,6 +101,25 @@
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.6rem;
+}
+
+#about > .container {
+  position: relative;
+}
+#about > .container .shapes {
+  position: absolute;
+}
+#about > .container .about-left-shape {
+  top: 0;
+  left: 0;
+}
+#about > .container .about-right-shape {
+  top: 0;
+  right: 0;
+}
+#about > .container .about-bottom-shape {
+  bottom: 0;
+  right: 0;
 }
 
 @font-face {

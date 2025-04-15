@@ -3,8 +3,7 @@
   background-color: var(--olive-800);
   display: flex;
   gap: 2rem;
-  align-items: center;
-  padding: 5rem;
+  padding: 8rem;
   padding-bottom: 0;
   .about-img {
     width: 100%;
@@ -38,5 +37,24 @@
       font-weight: 300;
       line-height: 1.6rem;
     }
+  }
+}
+// about section shapes posioning
+#about > .container {
+  position: relative;
+  .shapes {
+    position: absolute;
+  }
+  .about-left-shape {
+    top: 0;
+    left: 0;
+  }
+  .about-right-shape {
+    top: 0;
+    right: 0;
+  }
+  .about-bottom-shape {
+    bottom: 0;
+    right: 0;
   }
 }
