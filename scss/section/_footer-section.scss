@@ -1,4 +1,40 @@
 .footer-wrapper {
-  padding-top: 10rem;
   background-color: var(--olive-800);
+  display: flex;
+  justify-content: space-between;
+  color: var(--cream-100);
+  padding: 3rem 6rem;
+  padding-top: 13rem;
+  #address {
+    display: flex;
+    gap: 2rem;
+    .address-heading,
+    .contact-heading {
+      color: var(--cream-100);
+      font-family: "Magilio", sans-serif;
+      font-size: 1.3rem;
+      font-weight: 400;
+      line-height: 1.6rem;
+      margin: 0.4rem 0;
+    }
+    .address-detail,
+    .contact-detail {
+      color: var(--cream-200);
+      font-family: "Manrope", sans-serif;
+      font-size: 1.2rem;
+      font-weight: 500;
+      line-height: 1.6rem;
+      width: 380px;
+    }
+  }
+  .social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    .fa-brands {
+      color: var(--cream-200);
+      font-size: 2rem;
+    }
+  }
 }
