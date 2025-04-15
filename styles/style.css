@@ -133,6 +133,7 @@
   grid-template-columns: repeat(2, 1fr);
 }
 .portfolios-wrapper .portfolios-item {
+  width: 100%;
   margin-bottom: 2rem;
 }
 .portfolios-wrapper .portfolios-item img {
