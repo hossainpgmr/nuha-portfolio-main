@@ -158,6 +158,87 @@
   line-height: 1.4rem;
 }
 
+.contact-wrapper {
+  display: flex;
+  gap: 1rem;
+  margin: 0 6rem;
+  padding: 4rem;
+  background-color: var(--secondary);
+  border-radius: 5rem;
+}
+.contact-wrapper .heading {
+  color: var(--cream-100);
+  text-transform: capitalize;
+}
+.contact-wrapper .contact-form {
+  width: 60%;
+}
+.contact-wrapper .contact-form .input-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.contact-wrapper .contact-form .input-group .input-item {
+  width: 100%;
+}
+.contact-wrapper .contact-form .input-group .input-item fieldset {
+  border: var(--cream-100) 1px solid;
+  border-radius: 1rem;
+  outline: none;
+  padding: 0.5rem 1rem;
+  overflow: hidden;
+  z-index: 1;
+}
+.contact-wrapper .contact-form .input-group .input-item fieldset legend {
+  color: var(--cream-100);
+  font-family: "Manrope", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+.contact-wrapper .contact-form .input-group .input-item fieldset input,
+.contact-wrapper .contact-form .input-group .input-item fieldset textarea {
+  color: var(--cream-100);
+  background-color: var(--secondary);
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+}
+.contact-wrapper .contact-form .cta-submit {
+  display: inline-block;
+  background-color: var(--cream-100);
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+}
+.contact-wrapper .contact-form .cta-submit a {
+  color: var(--olive-800);
+  font-family: "Manrope", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+
+.contact-wrapper {
+  position: relative;
+}
+.contact-wrapper .shapes {
+  position: absolute;
+}
+.contact-wrapper .contact-top-shape {
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.contact-wrapper .contact-bottom-shape {
+  bottom: 0;
+  left: 20%;
+}
+
 @font-face {
   font-family: "Magilio";
   src: url("../assets/fonts/magilio.ttf") format("truetype");
@@ -225,9 +306,9 @@ a {
 .heading {
   color: var(--olive-800);
   font-family: "Magilio", sans-serif;
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 400;
-  line-height: 3.8rem;
+  line-height: 4.4rem;
   text-transform: uppercase;
   width: 50%;
 }

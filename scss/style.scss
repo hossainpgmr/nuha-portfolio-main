@@ -2,7 +2,7 @@
 @use "./section/hero-section";
 @use "./section/about-section";
 @use "./section/portfolios";
-@use "./section/form-section";
+@use "./section/contact-section";
 @use "./section/footer-section";
 
 @font-face {
@@ -73,9 +73,9 @@ a {
 .heading {
   color: var(--olive-800);
   font-family: "Magilio", sans-serif;
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 400;
-  line-height: 3.8rem;
+  line-height: 4.4rem;
   text-transform: uppercase;
   width: 50%;
 }
