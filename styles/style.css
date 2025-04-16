@@ -23,7 +23,7 @@
   margin-top: 2rem;
 }
 .hero-wrapper .btn-group .btn {
-  padding: 1rem 1.2rem;
+  padding: 1rem;
   border-radius: 2rem;
   border: none;
   outline: none;
@@ -33,15 +33,31 @@
   font-family: "Manrope", sans-serif;
   font-size: 1.2rem;
   font-weight: 500;
-  line-height: 1.5rem;
+  line-height: 1.4rem;
   text-transform: capitalize;
-  letter-spacing: 1px;
 }
 .hero-wrapper .btn-group .portfolios-btn {
   background-color: var(--olive-800);
 }
+.hero-wrapper .btn-group .portfolios-btn:hover {
+  background: transparent;
+  border: var(--olive-800) 1px solid;
+  transition: all 0.4s ease-out;
+}
+.hero-wrapper .btn-group .portfolios-btn:hover a {
+  color: var(--olive-800);
+}
 .hero-wrapper .btn-group .cta-btn {
   border: var(--olive-800) 1px solid;
+  background: none;
+}
+.hero-wrapper .btn-group .cta-btn:hover {
+  background: var(--olive-800);
+  border: none;
+  transition: all 0.5s ease;
+}
+.hero-wrapper .btn-group .cta-btn:hover a {
+  color: var(--cream-100);
 }
 .hero-wrapper .btn-group .cta-btn a {
   color: var(--olive-800);

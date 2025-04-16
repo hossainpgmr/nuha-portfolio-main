@@ -5,7 +5,7 @@
   padding: 4rem;
   position: relative;
   height: 70vh;
-  
+
   #hero-img {
     width: 60%;
     position: absolute;
@@ -23,7 +23,7 @@
     gap: 0.5rem;
     margin-top: 2rem;
     .btn {
-      padding: 1rem 1.2rem;
+      padding: 1rem;
       border-radius: 2rem;
       border: none;
       outline: none;
@@ -32,16 +32,32 @@
         font-family: "Manrope", sans-serif;
         font-size: 1.2rem;
         font-weight: 500;
-        line-height: 1.5rem;
+        line-height: 1.4rem;
         text-transform: capitalize;
-        letter-spacing: 1px;
       }
     }
     .portfolios-btn {
       background-color: var(--olive-800);
+      &:hover {
+        background: transparent;
+        border: var(--olive-800) 1px solid;
+        transition: all 0.4s ease-out;
+        a {
+          color: var(--olive-800);
+        }
+      }
     }
     .cta-btn {
       border: var(--olive-800) 1px solid;
+      background: none;
+      &:hover {
+        background: var(--olive-800);
+        border: none;
+        transition: all 0.5s ease;
+        a {
+          color: var(--cream-100);
+        }
+      }
       a {
         color: var(--olive-800);
       }
